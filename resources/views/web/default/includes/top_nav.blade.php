@@ -13,7 +13,7 @@
 
 @endphp
 
-<div class="top-navbar d-flex border-bottom">
+{{-- <div class="top-navbar d-flex border-bottom">
     <div class="container d-flex justify-content-between flex-column flex-lg-row">
         <div class="top-contact-box border-bottom d-flex flex-column flex-md-row align-items-center justify-content-center">
 
@@ -39,7 +39,7 @@
 
             <div class="d-flex align-items-center justify-content-between justify-content-md-center">
 
-                {{-- Currency --}}
+
                 @include('web.default.includes.top_nav.currency')
 
 
@@ -85,11 +85,11 @@
                 @include(getTemplate().'.includes.notification-dropdown')
             </div>
 
-            {{-- User Menu --}}
+
             @include('web.default.includes.top_nav.user_menu')
         </div>
     </div>
-</div>
+</div> --}}
 
 
 @push('scripts_bottom')
